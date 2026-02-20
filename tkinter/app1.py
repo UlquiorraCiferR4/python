@@ -1,0 +1,13 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("750x500")
+root.title("Solo levling")
+label = tk.Label(root, text="Text shows here !",font=('Arial',18))
+label.pack(padx=50,pady=50)
+data = tk.Entry(root)
+data.pack()
+textBox = tk.Text(root,height= 2,font=('Arial',18)) 
+textBox.pack(padx=10,pady=20)
+myBtn.pack()
+myBtn.pack()
+root.mainloop()
